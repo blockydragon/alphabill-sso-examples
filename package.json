@@ -1,0 +1,20 @@
+{
+  "name": "alphabill-sso-examples",
+  "version": "1.0.0",
+  "description": "Examples of using alphabill-sso-login wrappers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alphabill-sso-login": "file:../alphabill-sso-login/alphabill-sso-login-1.0.0.tgz",
+    "vite": "^5.1.6"
+  },
+  "devDependencies": {
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-svgr": "^4.2.0",
+    "vite-tsconfig-paths": "^4.3.2"
+  }
+}

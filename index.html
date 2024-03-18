@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="Alphabill SSO Login example" content="Alphabill SSO Login example" />
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <title>Alphabill SSO Login example</title>
+    <script type="module">
+	import { Buffer } from "buffer";
+	import Process from "process";
+	
+	window.process = Process;
+	window.Buffer = Buffer;
+    </script> 
+    <script src="https://cdn.jsdelivr.net/npm/@web3auth/modal@7"></script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="app"></div>
+    <script type="module">
+	import { connect } from "/src/main.js";
+
+	window.connect = connect;
+    </script>
+    <button id="connect_btn" onclick="connect()">Login</button>
+  </body>
+</html>
